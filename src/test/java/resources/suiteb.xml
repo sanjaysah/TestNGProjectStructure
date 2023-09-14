@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+    <test verbose="2" preserve-order="true" name="TestB">
+        <classes>
+            <class name="com.thetestingacademy.suiteb.TestB">
+                <!--<methods>
+                    <include name="testA"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="TestBB">
+        <classes>
+            <class name="com.thetestingacademy.suiteb.TestBB">
+                <!--<methods>
+                    <include name="testAA"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

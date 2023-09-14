@@ -1,0 +1,14 @@
+1692961555591	geckodriver	INFO	Listening on 127.0.0.1:25572
+1692961556447	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:24462/" "-foreground" "-no-remote" "-profile" "/var/folders/zb/2s3tr8ld3qq0742gj9kp6jfw0000gn/T/rust_mozprofile9sjNG7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692961556589	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1692961556743	Marionette	INFO	Listening on port 62882
+Read port: 62882
+WebDriver BiDi listening on ws://127.0.0.1:24462
+1692961556779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:24462/devtools/browser/0c383c67-d7f4-48af-b4f3-270ae3472575
+JavaScript error: https://clientcdn.pushengage.com/core/ee08a9929fe7ea157ecd01aea9c53c14.js, line 329: ReferenceError: Notification is not defined
